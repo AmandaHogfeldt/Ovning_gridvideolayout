@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-right:2rem;
+    gap:1rem;
+
+    
+}
+
+.container1 .container2 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.content .card {
+    grid-template-rows: auto;
+}
+.card img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+   
+
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    padding-left:2rem;
+    padding-top:1rem;
+    padding-bottom: 4rem;
+    display: grid;
+}
+
+.card .avatar {
+    float:left;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card b {
+    padding-left:0.5rem;
+}
+
+.card h4 {
+    padding-top:1rem;
+}
+
+.card p {
+    padding-left: 2.5rem;
+}
